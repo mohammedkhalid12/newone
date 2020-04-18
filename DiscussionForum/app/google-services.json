@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "771202633941",
+    "firebase_url": "https://discussion-3c08b.firebaseio.com",
+    "project_id": "discussion-3c08b",
+    "storage_bucket": "discussion-3c08b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771202633941:android:8bdb1944e457f5ece8d25c",
+        "android_client_info": {
+          "package_name": "com.discussionforum.discussionforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771202633941-98pjid1n4eqcs8mvrcf5cv030mr18j94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDZZCo6j4DmNroCuhM6lzH6rt0RHqlitg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771202633941-98pjid1n4eqcs8mvrcf5cv030mr18j94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

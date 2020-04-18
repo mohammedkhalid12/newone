@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/interior_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:padding="@dimen/_2sdp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/backgroun_items">
+
+        <TextView
+            android:id="@+id/response_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tajawal_tegular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Subject : Android De"
+            android:textColor="@color/colorItem"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/response_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:fontFamily="@font/tajawal_tegular"
+            android:gravity="center"
+            android:text="Author : Musab Ahmed"
+            android:textColor="@color/colorItem"
+            android:textSize="@dimen/_12sdp" />
+
+       <TextView
+        android:id="@+id/response_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+           android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/tajawal_tegular"
+        android:gravity="center"
+        android:text="Author : Musab Ahmed"
+        android:textColor="@color/colorItem"
+        android:textSize="@dimen/_12sdp" />
+
+</RelativeLayout>

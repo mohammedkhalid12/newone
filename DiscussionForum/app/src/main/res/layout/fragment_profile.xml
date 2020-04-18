@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorWًhite"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:src="@drawable/ic_profile_image"/>
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Musab Ahmed"
+                android:fontFamily="@font/tajawal_tegular"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_20sdp"/>
+
+            <TextView
+                android:id="@+id/profile_last_name"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Full name : Musab El-Tijani Ahmed "
+                android:fontFamily="@font/tajawal_tegular"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/profile_address"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Address : Sudan - Um Dorman"
+                android:fontFamily="@font/tajawal_tegular"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/profile_age"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:text="Age : 40 Year"
+                android:fontFamily="@font/tajawal_tegular"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/profile_gender"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:text="Gander : Male"
+                android:fontFamily="@font/tajawal_tegular"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_15sdp" />
+
+<!--            <Button-->
+<!--                android:id="@+id/profile_edit"-->
+<!--                android:layout_width="@dimen/_240sdp"-->
+<!--                android:layout_height="@dimen/_45ssp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="@dimen/_50sdp"-->
+<!--                android:fontFamily="@font/tajawal_tegular"-->
+<!--                android:background="@drawable/start_button"-->
+<!--                android:drawableEnd="@drawable/ic_edit_black_24dp"-->
+<!--                android:paddingEnd="@dimen/_10sdp"-->
+<!--                android:text="@string/profile_edit"-->
+<!--                android:textColor="@color/colorWًhite"-->
+<!--                android:textSize="@dimen/_15sdp" />-->
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

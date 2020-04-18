@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/interior_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:padding="@dimen/_2sdp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="13dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/backgroun_items">
+
+    <ImageView
+        android:id="@+id/_owner_image"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:srcCompat="@drawable/ic_profile_image" />
+
+    <TextView
+        android:id="@+id/subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tajawal_tegular"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Subject : Android De"
+        android:textColor="@color/colorItem"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:id="@+id/subject_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_38sdp"
+        android:fontFamily="@font/tajawal_tegular"
+        android:gravity="center"
+        android:text="Author : Musab Ahmed"
+        android:textColor="@color/colorItem"
+        android:textSize="@dimen/_13ssp" />
+
+    <TextView
+        android:id="@+id/subject_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:fontFamily="@font/tajawal_tegular"
+        android:gravity="center"
+        android:text="Author : Musab Ahmed"
+        android:textColor="@color/colorItem"
+        android:textSize="@dimen/_12ssp" />
+
+
+    <TextView
+        android:id="@+id/subject_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_110sdp"
+        android:fontFamily="@font/tajawal_tegular"
+        android:gravity="center"
+        android:text="Date : 12-4-2020 / 4:50 AM"
+        android:textColor="@color/colorItem"
+        android:textSize="@dimen/_13ssp" />
+
+    <Button
+       android:id="@+id/read_subject"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_40sdp"
+       android:fontFamily="@font/tajawal_tegular"
+       android:background="@drawable/start_button"
+       android:layout_marginTop="@dimen/_130sdp"
+       android:layout_marginEnd="@dimen/_10sdp"
+       android:layout_marginStart="@dimen/_10sdp"
+       android:layout_marginBottom="@dimen/_10sdp"
+       android:text="@string/view_subject"
+       android:textColor="@color/colorWًhite"
+       android:textSize="@dimen/_14ssp"/>
+
+
+</RelativeLayout>

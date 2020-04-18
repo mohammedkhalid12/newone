@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Discussion Forum</string>
+    <string name="welcome_text">Discussion Forum</string>
+    <string name="descration_app">A discussion forum around the subject defined by users.</string>
+    <string name="start">Get Start </string>
+    <string name="subscribe"> Don`t have an account? Subscribe</string>
+    <string name="subscribe_button">Subscribe</string>
+    <string name="bio"> Your bio ... </string>
+    <string name="user_name">Your Name</string>
+    <string name="list_name">List name </string>
+    <string name="user_location">Select our location</string>
+    <string name="user_age">Age </string>
+    <string name="gender">Gender : </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_home">Subjects</string>
+    <string name="title_subscribe">Add Subject</string>
+    <string name="title_subjects">Subjects</string>
+    <string name="subject_title">Title</string>
+    <string name="title_profile">profile</string>
+    <string name="profile_edit">Update Profile</string>
+    <string name="view_subject">Read Subject</string>
+    <string name="add_response">Response</string>
+</resources>
